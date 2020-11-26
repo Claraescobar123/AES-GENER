@@ -1,7 +1,7 @@
 import React from 'react'
-import Login from "./componentes/Login";
+import Login from "./componentes/Login/Login";
 import { BrowserRouter as Router } from "react-router-dom";
-import FormLogin from "./componentes/FormLogin";
+import FormLogin from "./componentes/Login/FormLogin";
 
 
 const App = () => {
