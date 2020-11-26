@@ -1,6 +1,6 @@
 import React from 'react'
-import portada from '../img/portada.png'
-import logo from '../img/aes-gener.jpg'
+import portada from '../../img/portada.png'
+import logo from '../../img/aes-gener.jpg'
 import "./Login.css";
 
 
