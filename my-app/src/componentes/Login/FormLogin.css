@@ -1,9 +1,14 @@
-.ContenedorForm{
- position: absolute;
-    
+.Container {
+  display: flex;
+  margin: auto;
+  margin-top: 250px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
 
-}  
+.Formulario {
 
-form{
-width: 200px;
+  width: 400px;
+  height: 400px;
 }
