@@ -1,14 +1,21 @@
 import React from 'react'
 import Login from "./componentes/Login/Login";
-import { BrowserRouter as Router } from "react-router-dom";
+import NuevaSolicitud from "./componentes/NuevaSolicitud/NuevaSolicitud";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 
 const App = () => {
   return (
     <Router>
-        <Login />
-      
+      <Switch>
+        <Route path="/NuevaSolicitud">
+          <NuevaSolicitud />
+        </Route>
+        <Route path="/">
+          <Login />
+        </Route>
+      </Switch>
     </Router>
   );
 }
