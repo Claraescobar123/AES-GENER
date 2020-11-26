@@ -3,6 +3,7 @@ import portada from '../../img/portada.png'
 import logo from '../../img/aes-gener.jpg'
 import "./Login.css";
 import FormLogin from "./FormLogin";
+import "./Login.css";
 
 
 

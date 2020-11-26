@@ -6,41 +6,36 @@ import React from 'react'
       Col,
       Container,
     } from "react-bootstrap";
-
+    import "./FormLogin.css";
 const FormLogin = () => {
     return (
       <Container className="Container">
         <Row>
-          <Col>
-            <form>
+          <Col>         
+            <form className="Formulario">
+              <h2>Bienvenidos</h2>
               <Form.Group controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" placeholder="Ingrese su email" />
                 <Form.Text className="text-muted">
-                  We'll never share your email with anyone else.
                 </Form.Text>
               </Form.Group>
 
               <Form.Group controlId="formBasicPassword">
-                <Form.Label>Password</Form.Label>
-                <Form.Control type="password" placeholder="Password" />
+                <Form.Label>Contraseña</Form.Label>
+                <Form.Control type="password" placeholder="Contraseña" />
               </Form.Group>
               <Form.Group controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
+                {/* <Form.Check type="checkbox" label="Check me out" /> */}
               </Form.Group>
               <Button variant="primary" type="submit">
-                Submit
+                INGRESAR
               </Button>
             </form>
           </Col>
-          <Col>
-          <p>
-            Holitas :)
-            </p>
-            </Col>
         </Row>
       </Container>
     );
 }
 
-export default FormLogin
+export default FormLogin;

@@ -6,8 +6,8 @@ body {
   margin: 0;
 }
 .imgPortada{
-width: 750px;
-height: 1024px;
+width: 700px;
+height: 650px;
 }
 
 .logo{
@@ -16,4 +16,8 @@ width: 300px;
 height: 117px;
 left: 1039px;
 top: 25px;
+}
+.login{
+  display:flex;
+  align-items: center;
 }
